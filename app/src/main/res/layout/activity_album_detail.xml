@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+    <TextView
+        android:id="@+id/tv_album_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Disco"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Linear layout para organizar los botones de canciones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_song1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tema 1" />
+
+        <Button
+            android:id="@+id/btn_play_song1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reproducir" />
+
+        <Button
+            android:id="@+id/btn_stop_song1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detener"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tv_song2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tema 2" />
+
+        <Button
+            android:id="@+id/btn_play_song2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reproducir" />
+
+        <Button
+            android:id="@+id/btn_stop_song2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detener"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver atrás"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btn_go_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver al inicio" />
+
+        <ImageView
+            android:id="@+id/iv_album_cover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_album"
+            android:layout_marginBottom="16dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
