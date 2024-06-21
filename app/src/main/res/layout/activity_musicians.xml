@@ -37,7 +37,6 @@
         android:layout_height="wrap_content"
         android:text="Músico 4" />
 
-    <!-- LinearLayout para colocar los botones en la parte inferior -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

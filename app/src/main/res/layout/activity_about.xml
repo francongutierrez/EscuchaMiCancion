@@ -8,13 +8,38 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Autores: Autor/es"
+        android:text="Autor: Franco Gutierrez"
         android:textSize="18sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Descripción: Esta es una aplicación de ejemplo para la tienda de música 'Escucha Tu Canción'."
+        android:text="Descripción: Proyecto 'Escucha Tu Canción' desarrollado para la cátedra 'Tópicos Avanzados de Programación Web'."
         android:textSize="18sp"
         android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/btn_genres"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ir a los géneros"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btn_go_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Volver al inicio"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
 </LinearLayout>

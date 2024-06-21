@@ -36,28 +36,10 @@
         android:layout_height="wrap_content"
         android:text="Clásica" />
 
-    <!-- LinearLayout para colocar los botones en la parte inferior -->
-    <LinearLayout
+    <Button
+        android:id="@+id/btn_go_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="bottom">
+        android:text="Volver al inicio" />
 
-        <Button
-            android:id="@+id/btn_back"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Volver atrás"
-            android:layout_marginEnd="8dp" />
-
-        <Button
-            android:id="@+id/btn_go_home"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Volver al inicio"
-            android:layout_marginStart="8dp" />
-
-    </LinearLayout>
 </LinearLayout>

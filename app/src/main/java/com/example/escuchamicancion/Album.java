@@ -10,13 +10,17 @@ public class Album implements Parcelable {
     private ArrayList<Integer> songResIds;
     private String musician;
     private String genre;
+    private String albumCover;
+    private String tracklist;
 
-    public Album(String title, ArrayList<String> songTitles, ArrayList<Integer> songResIds, String musician, String genre) {
+    public Album(String title, ArrayList<String> songTitles, ArrayList<Integer> songResIds, String musician, String genre, String albumCover, String tracklist) {
         this.title = title;
         this.songTitles = songTitles;
         this.songResIds = songResIds;
         this.musician = musician;
         this.genre = genre;
+        this.albumCover = albumCover;
+        this.tracklist = tracklist;
     }
 
     protected Album(Parcel in) {
@@ -78,6 +82,18 @@ public class Album implements Parcelable {
 
     public void setGenre(String genre) {
         this.genre = genre;
+    }
+
+    public String getAlbumCover() {
+        return albumCover;
+    }
+
+    public void setAlbumCover(String albumCover) {
+        this.albumCover = albumCover;
+    }
+
+    public String getTracklist() {
+        return tracklist;
     }
 
     @Override

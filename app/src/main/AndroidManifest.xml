@@ -13,6 +13,9 @@
         android:theme="@style/Theme.EscuchaMiCancion"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".AlbumsActivity"
             android:exported="false" />
         <activity
